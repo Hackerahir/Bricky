@@ -1,0 +1,78 @@
+.login-box{
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #f9b101;	
+}
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid black;
+	margin-bottom: 50px;
+	padding: 13px 0 ;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid black;
+	
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin:  0 10px;
+	
+}
+.loginbtn{
+	width: 100%;
+	background-color: #f9b101;
+	border: 2px solid #f9b101;
+	border-radius: 200px;
+	color: #000;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: 400;
+	cursor: pointer;
+}
+.loginbtn:hover{
+	background-color: #b58101;
+}
+.logo2{
+	height: 80px;
+	width: 80px;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	border: 2px solid #f9b101;
+}
+.login-box2{
+	width: 300px;
+	padding-top: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-40%);
+	color: #f9b101;	
+}
+.message
+{
+	display: none;
+}
+.message p{
+	font-size: 12px;
+}
